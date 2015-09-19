@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/Battle.cs">
+    <Files>
+      <File FileName="Assets/__Scripts/Player.cs" Line="57" Column="75" />
+      <File FileName="Assets/__Scripts/Menu.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Attack.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Battle.cs" Line="44" Column="40" />
+      <File FileName="Assets/__Scripts/BattleOptions.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Main.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/FIGHTscreen.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/AttackInfoScreen.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
