@@ -23,12 +23,16 @@ public class Player : MonoBehaviour {
 
 	public RaycastHit 	hitInfo;
 
+	public float chanceToFindPokemon = .1f;
+
 	public bool			moving = false;
 	public Vector3		targetPos;
 	public Direction	direction;
 	public Vector3		moveVec;
 
 	public Pokemon[]	Party;
+	
+	public bool checkedSpaceForPokemon = false;
 
 
 	void Awake(){
@@ -50,6 +54,7 @@ public class Player : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
+
 		if(Input.GetKeyDown (KeyCode.Z)) {
 			CheckForAction();
 		}
@@ -58,25 +63,27 @@ public class Player : MonoBehaviour {
 			if (Input.GetKey (KeyCode.RightArrow)) {
 				moveVec = Vector3.right;
 				direction = Direction.right;
-
-				// do not change
 				sprend.sprite = rightSprite;
 				moving = true;
+				checkedSpaceForPokemon = false;
 			} else if (Input.GetKey (KeyCode.LeftArrow)) {
 				moveVec = Vector3.left;
 				direction = Direction.left;
 				sprend.sprite = leftSprite;
 				moving = true;
+				checkedSpaceForPokemon = false;
 			} else if (Input.GetKey (KeyCode.UpArrow)) {
 				moveVec = Vector3.up;
 				direction = Direction.up;
 				sprend.sprite = upSprite;
 				moving = true;
+				checkedSpaceForPokemon = false;
 			} else if (Input.GetKey (KeyCode.DownArrow)) {
 				moveVec = Vector3.down;
 				direction = Direction.down;
 				sprend.sprite = downSprite;
 				moving = true;
+				checkedSpaceForPokemon = false;
 			} else {
 				moveVec = Vector3.zero;
 				moving = false;
@@ -94,7 +101,17 @@ public class Player : MonoBehaviour {
 					moving = false;
 				}
 			}
-		
+
+			//chance to find pokemon
+			if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Grass", "NPC"}))) {
+				if (!checkedSpaceForPokemon){
+					if (Random.value < chanceToFindPokemon){
+						print ("Found a pokemon");
+					}
+					checkedSpaceForPokemon = true;
+				}
+			}
+
 			targetPos = pos + moveVec;
 
 		} else {
