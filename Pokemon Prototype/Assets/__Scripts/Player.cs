@@ -58,6 +58,8 @@ public class Player : MonoBehaviour {
 			if (Input.GetKey (KeyCode.RightArrow)) {
 				moveVec = Vector3.right;
 				direction = Direction.right;
+
+				// do not change
 				sprend.sprite = rightSprite;
 				moving = true;
 			} else if (Input.GetKey (KeyCode.LeftArrow)) {
@@ -83,9 +85,18 @@ public class Player : MonoBehaviour {
 			if(Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Immovable", "NPC"}))) {
 				moveVec = Vector3.zero;
 				moving = false;
+			}else if(Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Ledge", "NPC"}))) {
+				// if there is a ledge
+				if (moveVec == Vector3.down) {
+					moveVec.y *= 2;
+				} else {
+					moveVec = Vector3.zero;
+					moving = false;
+				}
 			}
-
+		
 			targetPos = pos + moveVec;
+
 		} else {
 			if ((targetPos - pos).magnitude < moveSpeed * Time.fixedDeltaTime) {
 				pos = targetPos;

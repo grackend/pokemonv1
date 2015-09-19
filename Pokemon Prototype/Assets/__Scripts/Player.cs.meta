@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: c491000fa2b11914c9d8b788c8f1a013
-timeCreated: 1442430120
+timeCreated: 1442693701
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - upSprite: {fileID: 21300014, guid: a08beb13b6b94584a976b210877ac23b, type: 3}
+  - downSprite: {fileID: 21300002, guid: a08beb13b6b94584a976b210877ac23b, type: 3}
+  - leftSprite: {fileID: 21300006, guid: a08beb13b6b94584a976b210877ac23b, type: 3}
+  - rightSprite: {fileID: 21300010, guid: a08beb13b6b94584a976b210877ac23b, type: 3}
+  - sprend: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
