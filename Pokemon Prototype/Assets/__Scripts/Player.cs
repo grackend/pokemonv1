@@ -92,7 +92,8 @@ public class Player : MonoBehaviour {
 			if(Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Immovable", "NPC"}))) {
 				moveVec = Vector3.zero;
 				moving = false;
-			}else if(Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Ledge", "NPC"}))) {
+				print("found immovable");
+			}else if(Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Ledge"}))) {
 				// if there is a ledge
 				if (moveVec == Vector3.down) {
 					moveVec.y *= 2;
@@ -159,10 +160,10 @@ public class Player : MonoBehaviour {
 	}
 
 	public void MoveThroughDoor(Vector3 doorLoc) {
-		if (doorLoc.z <= 0)
-			doorLoc.z = transform.position.z;
+		if (doorLoc.z <= 0) doorLoc.z = transform.position.z;
 		moving = false;
 		moveVec = Vector3.zero;
 		transform.position = doorLoc;
+		print ("thru door");
 	}
 }

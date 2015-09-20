@@ -11,14 +11,4 @@ public class Door : MonoBehaviour {
 			Player.S.MoveThroughDoor(doorPos);
 		}
 	}
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }
