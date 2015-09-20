@@ -8,6 +8,7 @@ public enum Direction {
 public class Player : MonoBehaviour {
 
 	public static Player S;
+	Animator animator;
 
 	public float	moveSpeed;
 	public int		tileSize;
@@ -42,6 +43,7 @@ public class Player : MonoBehaviour {
 
 	void Start() {
 		sprend = gameObject.GetComponent<SpriteRenderer> ();
+		animator = GetComponent<Animator>();
 	}
 
 	new public Rigidbody rigidbody {
@@ -54,7 +56,6 @@ public class Player : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-
 		if(Input.GetKeyDown (KeyCode.Z)) {
 			CheckForAction();
 		}
@@ -66,24 +67,28 @@ public class Player : MonoBehaviour {
 				sprend.sprite = rightSprite;
 				moving = true;
 				checkedSpaceForPokemon = false;
+				animator.SetTrigger("WalkRight");
 			} else if (Input.GetKey (KeyCode.LeftArrow)) {
 				moveVec = Vector3.left;
 				direction = Direction.left;
 				sprend.sprite = leftSprite;
 				moving = true;
 				checkedSpaceForPokemon = false;
+				animator.SetTrigger("WalkLeft");
 			} else if (Input.GetKey (KeyCode.UpArrow)) {
 				moveVec = Vector3.up;
 				direction = Direction.up;
 				sprend.sprite = upSprite;
 				moving = true;
 				checkedSpaceForPokemon = false;
+				animator.SetTrigger("WalkUp");
 			} else if (Input.GetKey (KeyCode.DownArrow)) {
 				moveVec = Vector3.down;
 				direction = Direction.down;
 				sprend.sprite = downSprite;
 				moving = true;
 				checkedSpaceForPokemon = false;
+				animator.SetTrigger("WalkDown");
 			} else {
 				moveVec = Vector3.zero;
 				moving = false;
