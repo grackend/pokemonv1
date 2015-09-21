@@ -32,6 +32,12 @@ public class Player : MonoBehaviour {
 	public Vector3		moveVec;
 
 	public Pokemon[]	Party;
+
+	public Pokemon wildPokemon;
+	public Pokemon SpearowPrefab;
+	public Pokemon PidgeyPrefab;
+	public Pokemon RattataPrefab;
+	public Pokemon CharmanderPrefab;
 	
 	public bool checkedSpaceForPokemon = false;
 
@@ -109,10 +115,26 @@ public class Player : MonoBehaviour {
 			}
 
 			//chance to find pokemon
-			if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Grass", "NPC"}))) {
+			if (Physics.Raycast(GetRay(), out hitInfo, 1f, GetLayerMask(new string[] {"Grass"}))) {
 				if (!checkedSpaceForPokemon){
 					if (Random.value < chanceToFindPokemon){
-						print ("Found a pokemon");
+						// randomly create an instance of one of three pokemon
+						// assign it to a variable in 
+						float x = Random.value;
+						x *= 100;
+						x = (int)x;
+						print(x);
+						if(x % 3 == 0){
+							wildPokemon = Instantiate(SpearowPrefab);
+							print ("instantiated Spearow");
+						}else if(x % 3 == 1){
+							wildPokemon = Instantiate (PidgeyPrefab);
+							print ("instantiated Pidgey");
+						}else{
+							wildPokemon = Instantiate (RattataPrefab);
+							print ("instantiated Rattata");
+						}
+
 					}
 					checkedSpaceForPokemon = true;
 				}
@@ -163,7 +185,7 @@ public class Player : MonoBehaviour {
 
 		return layerMask;
 	}
-
+	
 	public void MoveThroughDoor(Vector3 doorLoc) {
 		if (doorLoc.z <= 0) doorLoc.z = transform.position.z;
 		moving = false;
