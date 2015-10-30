@@ -1,0 +1,110 @@
+body {
+	font-family: arial;
+	background-image: url(http://www.flixelpix.com/wp-content/uploads/2012/06/IMG_2234.jpg); 
+}
+
+
+header {
+  margin-left: 12%;
+}
+
+ .vertical_menu {
+        float: left;
+        width: 90px;
+        margin: 70px 0px 5px -30px;
+      }
+
+      .vertical_menu li {
+        list-style: none;
+        width: 180px;
+      }
+
+      .vertical_menu li a {
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        color: white;
+        margin-bottom: 5px;
+        font-family: 'Code Light';
+        font-size: 215%;
+        font-weight: 600;
+        
+      }
+
+      .vertical_menu li #home a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .vertical_menu li #about a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .vertical_menu li #music a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .vertical_menu li #videos a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .vertical_menu li #contact a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+      .vertical_menu li #links a {
+        border-style: solid;
+        border-width: thin;
+      }
+
+.vertical_menu li #home a:hover {
+    color: #00FF20;
+  }
+
+
+.vertical_menu li #about a:hover {
+    color: #FF6620;
+  }
+
+.vertical_menu li #music a:hover {
+    color: #38FFEA;
+  }
+
+.vertical_menu li #videos a:hover {
+    color: #FFF614;
+  }
+
+.vertical_menu li #contact a:hover {
+    color: #CD00F7;
+  }
+
+.vertical_menu li #links a:hover {
+    color: #FF0000;
+  }
+
+
+
+li {
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.social_media_icons {
+	float: left;
+	margin-top: 10px;
+	margin-left: 15%;
+}
+
+.social_media_icons a {
+	opacity: 0.5;
+	margin-right: 75px;
+}
+
+#container {
+	float: left;
+	margin-left: 100px;
+}

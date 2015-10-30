@@ -1,0 +1,23 @@
+h1#banner {
+	background-color: #33CCFF; 
+	font-family: American Typewriter; 
+	font-weight: 100; 
+	text-align: center;
+}
+
+p {
+	font-family: American Typewriter;
+	font-weight: 200;
+	text-align: center;
+}
+
+ul {
+	font-family: American Typewriter;
+	font-weight: 300;
+	text-align: left;
+}
+/*
+#banner --- ID
+.banner --- Class
+div.banner --- specific item w/ Class
+*/

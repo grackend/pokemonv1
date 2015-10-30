@@ -1,0 +1,34 @@
+schedule
+
+F15:
+eecs 441 (3) mow 4:30-6
+eecs 494 (4) mow 2:30-4:30, 4:30-6:30
+
+phil 340 minds/machines (4) tuth 2:30-4
+watercolor (3) tuth 2-5
+psych 211 (3) tuth 4-6
+dance 101 (1) tuth 11-1
+amcult 301 sex/gender in america (3) tuth 10-11:30
+amcult 239 gen/sex/health in us (3) mw 10-11:30
+anthrbio 368 (4) ULW MWF 11-12
+history 266 wars (4) tuth 11:30-1
+was 328 women/sex (3) tuth 2:30-4
+
+441, 494 2:30-6 mow
+
+
+W16:
+eecs 493
+
+
+(this includes 482)
+NEED
+27 more total credits
+21 more LSA credits
+5 more bs eligible credits
+1 more non-independent study course
+3 more outside of CS
+1 UL writing course
+4 credits ULCS
+1 capstone course
+1 credit CE

@@ -1,0 +1,976 @@
+fileFormatVersion: 2
+guid: bda323ce5e1f74da68328c8512f7c761
+timeCreated: 1444711672
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Map-Building1_0
+    21300002: Map-Building1_1
+    21300004: Map-Building1_2
+    21300006: Map-Building1_3
+    21300008: Map-Building1_4
+    21300010: Map-Building1_5
+    21300012: Map-Building1_6
+    21300014: Map-Building1_7
+    21300016: Map-Building1_8
+    21300018: Map-Building1_9
+    21300020: Map-Building1_10
+    21300022: Map-Building1_11
+    21300024: Map-Building1_12
+    21300026: Map-Building1_13
+    21300028: Map-Building1_14
+    21300030: Map-Building1_15
+    21300032: Map-Building1_16
+    21300034: Map-Building1_17
+    21300036: Map-Building1_18
+    21300038: Map-Building1_19
+    21300040: Map-Building1_20
+    21300042: Map-Building1_21
+    21300044: Map-Building1_22
+    21300046: Map-Building1_23
+    21300048: Map-Building1_24
+    21300050: Map-Building1_25
+    21300052: Map-Building1_26
+    21300054: Map-Building1_27
+    21300056: Map-Building1_28
+    21300058: Map-Building1_29
+    21300060: Map-Building1_30
+    21300062: Map-Building1_31
+    21300064: Map-Building1_32
+    21300066: Map-Building1_33
+    21300068: Map-Building1_34
+    21300070: Map-Building1_35
+    21300072: Map-Building1_36
+    21300074: Map-Building1_37
+    21300076: Map-Building1_38
+    21300078: Map-Building1_39
+    21300080: Map-Building1_40
+    21300082: Map-Building1_41
+    21300084: Map-Building1_42
+    21300086: Map-Building1_43
+    21300088: Map-Building1_44
+    21300090: Map-Building1_45
+    21300092: Map-Building1_46
+    21300094: Map-Building1_47
+    21300096: Map-Building1_48
+    21300098: Map-Building1_49
+    21300100: Map-Building1_50
+    21300102: Map-Building1_51
+    21300104: Map-Building1_52
+    21300106: Map-Building1_53
+    21300108: Map-Building1_54
+    21300110: Map-Building1_55
+    21300112: Map-Building1_56
+    21300114: Map-Building1_57
+    21300116: Map-Building1_58
+    21300118: Map-Building1_59
+    21300120: Map-Building1_60
+    21300122: Map-Building1_61
+    21300124: Map-Building1_62
+    21300126: Map-Building1_63
+    21300128: Map-Building1_64
+    21300130: Map-Building1_65
+    21300132: Map-Building1_66
+    21300134: Map-Building1_67
+    21300136: Map-Building1_68
+    21300138: Map-Building1_69
+    21300140: Map-Building1_70
+    21300142: Map-Building1_71
+    21300144: Map-Building1_72
+    21300146: Map-Building1_73
+    21300148: Map-Building1_74
+    21300150: Map-Building1_75
+    21300152: Map-Building1_76
+    21300154: Map-Building1_77
+    21300156: Map-Building1_78
+    21300158: Map-Building1_79
+    21300160: Map-Building1_80
+    21300162: Map-Building1_81
+    21300164: Map-Building1_82
+    21300166: Map-Building1_83
+    21300168: Map-Building1_84
+    21300170: Map-Building1_85
+    21300172: Map-Building1_86
+    21300174: Map-Building1_87
+    21300176: Map-Building1_88
+    21300178: Map-Building1_89
+    21300180: Map-Building1_90
+    21300182: Map-Building1_91
+    21300184: Map-Building1_92
+    21300186: Map-Building1_93
+    21300188: Map-Building1_94
+    21300190: Map-Building1_95
+    21300192: Map-Building1_96
+    21300194: Map-Building1_97
+    21300196: Map-Building1_98
+    21300198: Map-Building1_99
+    21300200: Map-Building1_100
+    21300202: Map-Building1_101
+    21300204: Map-Building1_102
+    21300206: Map-Building1_103
+    21300208: Map-Building1_104
+    21300210: Map-Building1_105
+    21300212: Map-Building1_106
+    21300214: Map-Building1_107
+    21300216: Map-Building1_108
+    21300218: Map-Building1_109
+    21300220: Map-Building1_110
+    21300222: Map-Building1_111
+    21300224: Map-Building1_112
+    21300226: Map-Building1_113
+    21300228: Map-Building1_114
+    21300230: Map-Building1_115
+    21300232: Map-Building1_116
+    21300234: Map-Building1_117
+    21300236: Map-Building1_118
+    21300238: Map-Building1_119
+    21300240: Map-Building1_120
+    21300242: Map-Building1_121
+    21300244: Map-Building1_122
+    21300246: Map-Building1_123
+    21300248: Map-Building1_124
+    21300250: Map-Building1_125
+    21300252: Map-Building1_126
+    21300254: Map-Building1_127
+    21300256: Map-Building1_128
+    21300258: Map-Building1_129
+    21300260: Map-Building1_130
+    21300262: Map-Building1_131
+    21300264: Map-Building1_132
+    21300266: Map-Building1_133
+    21300268: Map-Building1_134
+    21300270: Map-Building1_135
+    21300272: Map-Building1_136
+    21300274: Map-Building1_137
+    21300276: Map-Building1_138
+    21300278: Map-Building1_139
+    21300280: Map-Building1_140
+    21300282: Map-Building1_141
+    21300284: Map-Building1_142
+    21300286: Map-Building1_143
+    21300288: Map-Building1_144
+    21300290: Map-Building1_145
+    21300292: Map-Building1_146
+    21300294: Map-Building1_147
+    21300296: Map-Building1_148
+    21300298: Map-Building1_149
+    21300300: Map-Building1_150
+    21300302: Map-Building1_151
+    21300304: Map-Building1_152
+    21300306: Map-Building1_153
+    21300308: Map-Building1_154
+    21300310: Map-Building1_155
+    21300312: Map-Building1_156
+    21300314: Map-Building1_157
+    21300316: Map-Building1_158
+    21300318: Map-Building1_159
+    21300320: Map-Building1_160
+    21300322: Map-Building1_161
+    21300324: Map-Building1_162
+    21300326: Map-Building1_163
+    21300328: Map-Building1_164
+    21300330: Map-Building1_165
+    21300332: Map-Building1_166
+    21300334: Map-Building1_167
+    21300336: Map-Building1_168
+    21300338: Map-Building1_169
+    21300340: Map-Building1_170
+    21300342: Map-Building1_171
+    21300344: Map-Building1_172
+    21300346: Map-Building1_173
+    21300348: Map-Building1_174
+    21300350: Map-Building1_175
+    21300352: Map-Building1_176
+    21300354: Map-Building1_177
+    21300356: Map-Building1_178
+    21300358: Map-Building1_179
+    21300360: Map-Building1_180
+    21300362: Map-Building1_181
+    21300364: Map-Building1_182
+    21300366: Map-Building1_183
+    21300368: Map-Building1_184
+    21300370: Map-Building1_185
+    21300372: Map-Building1_186
+    21300374: Map-Building1_187
+    21300376: Map-Building1_188
+    21300378: Map-Building1_189
+    21300380: Map-Building1_190
+    21300382: Map-Building1_191
+    21300384: Map-Building1_192
+    21300386: Map-Building1_193
+    21300388: Map-Building1_194
+    21300390: Map-Building1_195
+    21300392: Map-Building1_196
+    21300394: Map-Building1_197
+    21300396: Map-Building1_198
+    21300398: Map-Building1_199
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Map-Building1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 84
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 68
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 52
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_43
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_45
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_47
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_50
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_54
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_59
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 20
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Map-Building1_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 4
+        width: 16
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

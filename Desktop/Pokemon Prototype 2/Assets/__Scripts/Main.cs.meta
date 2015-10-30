@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: e09aac7b4430a4a26b6ef22e086d3c54
+timeCreated: 1444026638
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - prefab0: {fileID: 11421308, guid: e32ed7c2ce7f54c88ab2a64b7dd973ec, type: 2}
+  - prefab1: {instanceID: 0}
+  - prefab2: {instanceID: 0}
+  - prefab3: {instanceID: 0}
+  - prefab4: {instanceID: 0}
+  - prefab5: {instanceID: 0}
+  - prefab6: {instanceID: 0}
+  - prefab7: {instanceID: 0}
+  - prefab8: {instanceID: 0}
+  - prefab9: {instanceID: 0}
+  - prefab10: {instanceID: 0}
+  - prefab11: {instanceID: 0}
+  - prefab12: {instanceID: 0}
+  - prefab13: {instanceID: 0}
+  - prefab14: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>My Webpage</title>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+		<!-- Latest compiled and minified CSS --> 
+		
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"> 
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	</head>
+
+	<body>	
+	  <header>
+		<img src="http://i1140.photobucket.com/albums/n574/nickgamer20/ScreenShot2014-07-31at73348PM_zpse523c477.png">
+	  </header>
+
+
+	   <div class="container">
+		<ul class="vertical_menu">
+			<li><div id="home"><a href="#">HOME</a></div></li>
+			<li><div id="about"><a href="#">ABOUT</a></div></li>
+			<li><div id="music"><a href="#">MUSIC</a></div></li>
+			<li><div id="videos"><a href="#">VIDEOS</a></div></li>
+			<li><div id="contact"><a href="#">CONTACT</a></div></li>
+			<li><div id="links"><a href="#">LINKS</a></div></li>
+		  </ul> 
+		</div>
+		</div>  
+
+		<div class="social_media_icons">
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/cd64f858-e5f5-4f39-aa55-575c789fb5ee_zps9b28274d.png?t=1406918789"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/2411ee69-ff1a-45bc-aed9-99a5b3c175a3_zps0101da6a.png?t=1406918564"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/2e7222a0-b79e-4ef9-bc63-d5f2873e0728_zpsadb27b2b.png?t=1406918436"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/97dfa7c6-033b-4983-b9a9-391e9f243fc0_zpsa44db92e.png?t=1406918476"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/9f59eb13-1d23-4f83-abb1-f29f390244e0_zpsba9c626e.png?t=1406918529"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/2d9d0de4-ff53-46c4-98b3-fc8f8680b540_zps61a22188.png?t=1406918604"></a>
+		  <a href="#"><img src="http://i1140.photobucket.com/albums/n574/nickgamer20/9b255440-9dd2-4d22-ade8-ab50659ca739_zps52915c5a.png?t=1406918500"></a>
+		</div>
+
+	 <!-- <div id="container" style="width:250px">
+	  <a class="twitter-timeline" href="https://twitter.com/NickMartin202" data-widget-id="489481674615320576">Tweets by @NickMartin202</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+-->
+	
+	<script type="text/javascript"></script>
+
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+
+	<script src="bower_components/jquery/jquery.js"></script> 
+
+	<script>
+		$(document).ready(function() {
+
+
+			$('li').mouseenter(function() {
+       			$(this).animate({
+           			width: '+=15px'}, 'fast');
+   			});
+
+   			$('li').mouseleave(function() {
+       			$(this).animate({
+          			 width: '-=15px'}, 'fast');
+  			});
+
+
+			$('.social_media_icons a').mouseenter(function() {
+       			$(this).animate({
+           			opacity: '+=1'}, 'fast');
+   			});
+
+   			$('.social_media_icons a').mouseleave(function() {
+       			$(this).animate({
+          			 opacity: '-=0.5'}, 'fast');
+    
+  			});
+
+  			$('.twitter-timeline a').mouseenter(function() {
+       			$(this).animate({
+           			opacity: '+=1'
+       			});
+   			});
+
+   			$('.twitter-timeline a').mouseleave(function() {
+       			$(this).animate({
+           			opacity: '-=0.8'
+       			});
+   			});
+		});
+
+		</script>
+
+
+	</body>
+
+</html>

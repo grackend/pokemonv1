@@ -1,0 +1,20 @@
+Meet the Staff!
+
+(Below is stuff from Maxim, about reserving rooms.)
+Just check if it’s available: https://csprod.dsc.umich.edu/services/facilitycalendar?facilityid=CHEM1800
+This summer I used CHEM 1640 for EECS 281 without reserving it. (But it didn’t require a projectionist.)
+
+
+
+(Below is MY stuff for what I did.)
+First I had all the staff go around and introduce themselves individually and talk about their extra-curriculars, what they came to school to major in/how they got into CS (that might be better for really beginner students, not sure how you want to do that), and the work that they’ve done for internships/stuff like that. That took up about 30 minutes (aka steve took like 10 minutes by himself) and then I opened it up to questions from students. I tried not to spend too long on any particular question. Also, I got one question from a girl asking if it was true that it’s easier to get a job in CS if you’re a girl… make sure you say NO if you get that! That was cringy.
+We spent 20-30 minutes on questions from students, and then we took the next hour to help people download Xcode/VS.
+
+If I were in 280, I’d love to have some kind of advice on how to go about the career fair, resumes, getting internships, strategies for dealing with bigger projects, office hour protocol, support/experiences for girls in EECS, etc. I bet they’ll be really curious about the career fair.
+
+
+
+(Below is stuff from ML… just some example questions.)The following questions were asked, the gender of the questioner is also noted:Moderator's Question: Favorite Michigan thing to do in the fall?Female Question: Did anyone start as an undecided major?Female Question: What was your favorite extracurricular activity?Male Question: Favorite place to eat in Ann Arbor + Favorite color?Male Question: Worst / hardest class you had to take?Female Question: Best resources on campus?Male Question: Study Groups? This is hardFemale Question: Get HElp if we don't want to ask?Female Question: What's needed for MHacksFemale Question: How do you know about events going on?Male Question: Are the MHacks seminars open to anyone?Male Question: How can I find a BME student group?Female Question: CS Degree, spending career infront of a computer not apealing. Talk about?Male Question: Can you use a department advisor instead of a general one?Male Question: What's your favorite programming language?
+
+
+LUH YOU <3 <3 <3

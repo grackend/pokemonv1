@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ApplePicker Prototype/Assets/AppleTree.cs">
+    <Files>
+      <File FileName="../ApplePicker Prototype/Assets/ApplePicker.cs" Line="1" Column="1" />
+      <File FileName="../ApplePicker Prototype/Assets/AppleTree.cs" Line="19" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
